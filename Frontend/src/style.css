@@ -1,0 +1,49 @@
+:root {
+  --wood-darkest: #140c07;
+  --wood-dark: #1f130b;
+  --wood-medium: #2e1c10;
+  --leather-dark: #361f12;
+  --leather-rich: #4a2a18;
+  --parchment-light: #f7eedc;
+  --parchment-mid: #ede0c4;
+  --parchment-deep: #dcc69e;
+  --gold-aged: #c59b27;
+  --gold-bright: #e5c158;
+  --gold-muted: #9a7820;
+  --wine-red: #6e1b23;
+  --wine-red-dark: #4f1117;
+  --wine-red-hover: #8c222c;
+  --ink-dark: #26170e;
+  --ink-muted: #5c422f;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--parchment-light);
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  background-color: var(--wood-darkest);
+  background-image:
+    radial-gradient(circle at 50% 10%, rgba(197, 155, 39, 0.14) 0%, rgba(20, 12, 7, 0.88) 70%),
+    repeating-linear-gradient(
+      180deg,
+      rgba(15, 8, 4, 0.55) 0px,
+      rgba(15, 8, 4, 0.55) 14px,
+      rgba(46, 28, 16, 0.35) 14px,
+      rgba(58, 34, 19, 0.35) 260px,
+      rgba(12, 6, 3, 0.78) 260px,
+      rgba(12, 6, 3, 0.78) 272px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.015) 0px,
+      rgba(255, 255, 255, 0.015) 2px,
+      transparent 2px,
+      transparent 9px
+    ),
+    linear-gradient(135deg, #1b1009 0%, #2b190e 50%, #150c06 100%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, .font-title {
+  font-family: 'Cinzel', 'IM Fell English', Georgia, serif;
+}
